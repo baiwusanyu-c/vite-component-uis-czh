@@ -21,7 +21,7 @@ const config = [
         input: "./packages/components/index.ts", // 必须，入口文件
         output: [
             {
-                file: './dist/lib/be-ui-umd.js',
+                file: './dist/be-ui-umd.js',
                 format: 'umd',
                 name: 'be-ui',
                 globals: {
@@ -30,7 +30,7 @@ const config = [
 
             },
             {
-                file: './dist/lib/be-ui.es.js',
+                file: './dist/index.js',
                 format: 'es',
                 name: 'be-ui',
                 globals: {
@@ -39,7 +39,7 @@ const config = [
 
             },
             {
-                file: './dist/lib/be-ui-cjs.js',
+                file: './dist/be-ui-cjs.js',
                 format: 'cjs',
                 name: 'be-ui',
                 globals: {
@@ -77,7 +77,7 @@ const config = [
         input: "./packages/components/index.d.ts",
         output: [
             {
-                file: './dist/type/index.d.ts',
+                file: './dist/index.d.ts',
                 format: 'esm',
                 name: 'be-ui',
                 globals: {

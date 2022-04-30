@@ -5,7 +5,7 @@ specifiers:
   element-plus: ^2.1.11
   typescript: ^4.5.4
   vite: ^2.9.5
-  vite-component-uis-czh: ^0.0.1
+  vite-component-uis-czh: 0.0.6
   vue: ^3.2.25
   vue-tsc: ^0.34.7
 
@@ -17,7 +17,7 @@ devDependencies:
   '@vitejs/plugin-vue': 2.3.1_vite@2.9.6+vue@3.2.33
   typescript: 4.6.4
   vite: 2.9.6
-  vite-component-uis-czh: 0.0.1_vite@2.9.6
+  vite-component-uis-czh: 0.0.6_vite@2.9.6
   vue-tsc: 0.34.11_typescript@4.6.4
 
 packages:
@@ -706,8 +706,8 @@ packages:
     hasBin: true
     dev: true
 
-  /vite-component-uis-czh/0.0.1_vite@2.9.6:
-    resolution: {integrity: sha512-IwI3JSBCqUt81YI4JXj5z6zfuUmBo9AkiUnwLzU9pWfspOYFer6YYW/FlAFATkNFMLtDcn6BYjWOTxp0Mi6XoQ==}
+  /vite-component-uis-czh/0.0.6_vite@2.9.6:
+    resolution: {integrity: sha512-bSOIKxBzp1ewuP4cmRiQLsnMxbCBa1NkSTF1dl0Cl/ZXTl3V2mMPv9CX3YWdlYvKLezc4UJ54pXDqrrl6Wrgcg==}
     engines: {node: '>= 16'}
     dependencies:
       '@popperjs/core': 2.11.5
