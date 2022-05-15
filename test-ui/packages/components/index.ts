@@ -1,6 +1,6 @@
 import type { App } from 'vue'
 // 按需引用
-//export * from './install-components'
+export * from './install-components'
 import * as components from './install-components'
 //import 'virtual:windi.css'
 import '../style/index.scss'
