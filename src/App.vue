@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {ElTag} from "element-plus";
-
+import {BeTag} from 'vite-component-uis-czh'
 </script>
 
 <template>

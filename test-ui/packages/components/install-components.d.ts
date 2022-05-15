@@ -1,0 +1,1 @@
+export { default as BeTag } from './tag/index.d'
